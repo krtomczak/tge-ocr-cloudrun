@@ -1,0 +1,14 @@
+{
+  "name": "tge-ocr-cloudrun",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer": "^21.3.8",
+    "tesseract.js": "^5.0.4"
+  }
+}
